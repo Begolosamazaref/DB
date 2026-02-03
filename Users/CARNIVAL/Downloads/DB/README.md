@@ -1,6 +1,6 @@
 # KVStore - Persistent Distributed Key-Value Store
 
-A high-performance, persistent key-value store with distributed capabilities, advanced indexing, and replication support.
+A high-performance, persistent key-value store with distributed capabilities, advanced indexing, and replication .
 
 ## Features
 
@@ -80,10 +80,6 @@ Configuration can be set via environment variables or config files. See `src/kvs
 ## Performance
 
 See `scripts/benchmark_write.py` for performance benchmarks and testing utilities.
-
-## License
-
-MIT
 
 ## Repository
 
