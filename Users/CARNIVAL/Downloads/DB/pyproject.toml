@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kvstore"
+version = "0.1.0"
+description = "Persistent distributed key-value store"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+kvstore-server = "kvstore.cli:main"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
